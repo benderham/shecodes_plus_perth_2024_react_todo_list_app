@@ -44,7 +44,7 @@ function App() {
           key={index}
           todo={todo}
           completeTodo={completeTodo}
-          removeTodo={() => removeTodo(index)}
+          removeTodo={removeTodo}
           index={index}
         />
       ))}
